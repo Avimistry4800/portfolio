@@ -1,0 +1,16 @@
+.projectImage{
+    width:320px;
+    border-radius: 10PX;
+}
+.portfolioCard{
+    border: 1px solid gray;
+    background: rgb(230, 230, 230);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px 0px;
+    border-radius: 10PX;
+    min-height: 500px;
+}
+.full{
+    min-height:1100px;
+}
