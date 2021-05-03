@@ -64,7 +64,7 @@ const Header = () => {
         document.body.appendChild(css);
     };
     return (<section className="header">
-        <NavbarTop/>
+        
 
       <div className='row'>
       <div className='col-md-6 lg-6 sm-12 d-flex'>
@@ -87,6 +87,9 @@ const Header = () => {
                 </a>
                     <div>
                     <img style={{maxWidth:"30%",borderRadius:'30%',paddingTop:"40px"}} src={image} alt=""/>
+                    </div>
+                    <div>
+                    <a href="https://drive.google.com/uc?export=download&id=1WmAH_Zr1WURjTL6ZVq_h3FtPYILXwITI">  <button data-aos="fade-up"  style={{background:'none',borderRadius:'20px',fontSize:'16px',color:'white',padding:"10px",marginTop:"50px"}}>Download Resume</button></a>
                     </div>
             </h2>
             

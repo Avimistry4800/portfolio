@@ -7,6 +7,7 @@ import MyService from "./Components/Home/MyService/MyService";
 import AllProjects from "./Components/Home/AllProjects/AllProjects";
 import AboutMe from "./Components/Home/AboutMe/AboutMe";
 import ContactMe from "./Components/Home/ContactMe/ContactMe";
+import Blogs from "./Components/Home/Blogs/Blogs";
 
 function App() {
   return (
@@ -25,10 +26,10 @@ function App() {
           <Route path="/contact">
             <ContactMe/>
           </Route>
-          {/* <Route path="/blog">
+          <Route path="/blog">
             <Blogs/>
-          </Route> */}
-          <Route path="/projects">
+          </Route>
+          <Route path="/project">
             <AllProjects/>
           </Route>
         </Switch>

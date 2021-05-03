@@ -18,7 +18,7 @@ const Projects = () => {
         Aos.init({duration:2000});
     },[]);
     return (
-        <section  className="project py-5 " style={{background:"#f0f2f2"}}>
+        <section  className="project py-5 " style={{background:"#F5DF4E"}}>
             <div data-aos="fade-down" className="text-center project-header">
                 <h1 className="pb-5">My Recent Projects</h1>
                 
@@ -33,7 +33,7 @@ const Projects = () => {
                     </div>
                     <div data-aos="fade-down" className="col-md-4 lg-4 sm-12 py-4">
                         <h4>Features</h4>
-                    <p>
+                    <p className="px-2">
                          A Full-Stack cleaning service website where users can book any service , manage bookings, write reviews & make payment.In admin pannel , admin can manage & update services & also make another admins.
                         </p>
                         <h3>
@@ -67,7 +67,7 @@ const Projects = () => {
                 <div className="row d-flex project-img inline-block py-4">
                     <div data-aos="fade-right" className="col-md-4 lg-4 sm-12">
                     <h4>Features</h4>
-                        <p>
+                        <p className="px-2">
                         A Full-Stack online food item shopping website. User can add product & remove product, Admin can manage products, GoogleAuth, Private Route, API data oad,User info update & more
                         </p>
                         <h3>
@@ -112,7 +112,7 @@ const Projects = () => {
                     </div>
                     <div data-aos="fade-up-left" className="col-md-4 lg-4 sm-12">
                     <h4>Features</h4>
-                        <p>
+                        <p className="px-2">
                         Website for book a Ride like Bus , Train or Byke ride.User can place a booking after Login using Google Auth or after Create User Account.
                         </p>
                         <h3>
