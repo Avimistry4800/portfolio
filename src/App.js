@@ -20,6 +20,9 @@ function App() {
           <Route path="/MyService">
             <MyService/>
           </Route>
+          <Route path="/home">
+            <Home/>
+          </Route>
           <Route path="/about">
             <AboutMe/>
           </Route>

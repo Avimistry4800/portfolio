@@ -7,14 +7,14 @@ import './NAvbarTop.css'
 const NavbarTop = () => {
     return (
         <Navbar  className="navbar-fixed topnav"collapseOnSelect expand="lg" sticky='top' variant="light">
-        <Navbar.Brand href="/home">Avi Mistry</Navbar.Brand>
+        <Navbar.Brand style={{color:"white" ,paddingLeft:"50px"}} href="/home">Avi Mistry</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
 
-          <Nav  className="ml-auto mr-auto">
-            <Nav.Link    > <Link style={{color:"red",textDecoration: "none",padding:"10px"}}  to="/home">Home</Link></Nav.Link>
-            <Nav.Link    > <Link style={{color:"red",textDecoration: "none" ,padding:"10px"}}  to="/about">About</Link></Nav.Link>
-            <Nav.Link    > <Link style={{color:"red",textDecoration: "none" ,padding:"10px"}}  to="/project">Projects</Link></Nav.Link>
+          <Nav  className="ml-auto ">
+            <Nav.Link    > <Link style={{color:"#fff",textDecoration: "none",padding:"10px"}}  to="/home">Home</Link></Nav.Link>
+            <Nav.Link    > <Link style={{color:"#fff",textDecoration: "none" ,padding:"10px"}}  to="/about">About</Link></Nav.Link>
+            <Nav.Link    > <Link style={{color:"#fff",textDecoration: "none" ,padding:"10px"}}  to="/project">Projects</Link></Nav.Link>
             
           <NavDropdown title="Find More" id="collasible-nav-dropdown ">
               <NavDropdown.Item target="_blank"   href="https://www.linkedin.com/in/avi-mistry-52232a132/">Linkedin</NavDropdown.Item>

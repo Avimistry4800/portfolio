@@ -1,9 +1,9 @@
 .header{
     /* background: #5833ff; */
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background: linear-gradient(-45deg, #773825, #5c1631, #1a576d, #0c5c49);
     background-size: 400% 500%;
     animation: gradient 15s ease infinite;
-    height: 1100px;
+    height: 700px;
   }
   
   
@@ -16,38 +16,37 @@
   }
   
   .small{
+    width: 100px;
+    height: 100px;
+    left: -50px;
+    bottom: -50px;
+  }
+  
+  .medium{
     width: 200px;
     height: 200px;
     left: -100px;
     bottom: -100px;
   }
   
-  .medium{
+  .large{
     width: 400px;
     height: 400px;
     left: -200px;
     bottom: -200px;
   }
-  
-  .large{
+  .xlarge{
     width: 600px;
     height: 600px;
     left: -300px;
     bottom: -300px;
   }
   
-  .xlarge{
+  .xxlarge{
     width: 800px;
     height: 800px;
     left: -400px;
     bottom: -400px;
-  }
-  
-  .xxlarge{
-    width: 1000px;
-    height: 1000px;
-    left: -500px;
-    bottom: -500px;
   }
   
   .shade1{
@@ -98,7 +97,7 @@
   .main-header{
     text-align: center;
     color:#fff;
-    padding-top:10em;
+    padding-top:3em;
   }
   
   .main-header { 
@@ -106,6 +105,4 @@
     font-weight: bold;
     
     }
-    .header-title{
-      padding-top:400px
-    }
+    

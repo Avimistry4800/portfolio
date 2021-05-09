@@ -18,7 +18,7 @@ const Projects = () => {
         Aos.init({duration:2000});
     },[]);
     return (
-        <section  className="project py-5 " style={{background:"#F5DF4E"}}>
+        <section  className="project py-5 " style={{background:"#4d4d4d", borderRadius:"10px"}}>
             <div data-aos="fade-down" className="text-center project-header">
                 <h1 className="pb-5">My Recent Projects</h1>
                 
@@ -60,7 +60,7 @@ const Projects = () => {
                                     </div>
                     </div>
                     <div data-aos="fade-down-left" className="col-md-4 lg-4 sm-12 project-img inline-block">
-                    <p><img src={cleanzo} alt="Example2" width="100%" height="100%"/></p>
+                    <p><img src={cleanzo} style={{borderRadius:"10px"}} alt="Example2" width="100%" height="100%"/></p>
                     </div>
                     
                 </div>
@@ -93,7 +93,7 @@ const Projects = () => {
                     </div>
                     <div  className="col-md-4 lg-4 sm-12 project-img">
                         {/* <img src={cleanzo} alt="" /> */}
-                        <p data-aos="flip-left"><img src={FoodVally} alt="Example2" width="100%" height="100%"/></p>
+                        <p data-aos="flip-left"><img src={FoodVally} style={{borderRadius:"10px"}} alt="Example2" width="100%" height="100%"/></p>
                     </div>
                     <div data-aos="fade-left" className="col-md-4 lg-4 sm-12">
                     <img style={{width:"30%"}} src={logo2}/>
@@ -102,8 +102,8 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="row d-flex project img-fluid py-4">
-                    <div className="col-md-4 lg-4 sm-12 project-img">
-                    <p data-aos="fade-up-right"><img src={kakuRider} alt="Example2" width="100%" height="100%"/></p>
+                    <div className="col-md-4 lg-4 sm-12 project-img ">
+                    <p data-aos="fade-up-right" className=""><img src={kakuRider} style={{borderRadius:"10px"}} alt="Example2" width="100%" height="100%"/></p>
                     </div>
                     <div data-aos="fade-up" className="col-md-4 lg-4 sm-12">
                     <img style={{width:"30%"}} src={logo3}/>

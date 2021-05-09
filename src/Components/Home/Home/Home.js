@@ -19,15 +19,22 @@ const Home = () => {
        <section>
            <NavbarTop/>
            <Header></Header>
-           <AboutMe></AboutMe>
+           <div className="all-body-after-header">
+           <div className="container">
+           
+           <AboutMe/>
            <Expertise/>
         <Services></Services>
         
         <Resume/>
         <Projects/>
         <Blogs/>
-        <ContactMe/>
-        <Footer/>
+        
+        
+           </div>
+           </div>
+           <ContactMe/>
+           <Footer/>
        </section>
 
          

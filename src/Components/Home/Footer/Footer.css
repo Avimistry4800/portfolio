@@ -1,4 +1,10 @@
 .footer{
-    background-color: #F5DF4E;
+    background-color: #4D4D4D;
     height:100px;
+    color: #00ddff;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
 }

@@ -26,14 +26,14 @@ const ContactMe = () => {
         e.target.reset();
     };
     return (
-        <section style={{ background: "#F5DF4E" }} className="contact">
+        <section style={{ background: "#4D4D4D" , color: "#FFFFFF"}} className="contact">
             <div className="container">
                 <form onSubmit={sendEmail}>
                     <div className="row pt-5 mx-auto">
                         <div className="col-6  mx-auto text-left">
-                            <h2>Let's get in touch</h2>
+                            <h2  style={{color:"#00ddff",paddingLeft:"10px"}}>Let's get in touch</h2>
                             <br />
-                            <div className="col-10  mx-auto text-left">
+                            <div className="col-12  mx-auto text-left">
                                 <p>
                                     <big>
                                     I enjoy discussing new projects and design
@@ -43,31 +43,31 @@ const ContactMe = () => {
                                     </big>
                                 </p>
                             </div>
-                            <div className="col-10  mx-auto pt-2 text-left">
+                            <div className="col-12  mx-auto pt-2 text-left">
                                 <h4>Living In:</h4>
                                 <p>Savar,Dhaka,Bangladesh.</p>
                             </div>
-                            <div className="col-10  mx-auto pt-2 text-left">
+                            <div className="col-12  mx-auto pt-2 text-left">
                                 <h4>Call:</h4>
                                 <p>+8801829738668</p>
                             </div>
-                            <div className="col-10  mx-auto pt-2 text-left">
+                            <div className="col-12  mx-auto pt-2 text-left">
                             <h3>
-                            <div style={{fontSize:"2rem", color:'#F5DF4E'}} className="d-flex justify-content-start">
+                            <div style={{fontSize:"2rem"}} className="d-flex justify-content-start">
                                         <a href="https://www.facebook.com/avi.mistry.48/" title="Github Repository" target="_blank">
-                                            <div className="text px-1"> <FontAwesomeIcon icon={faFacebook} /></div>
+                                            <div className="text px-1"> <FontAwesomeIcon style={{color:"#00ddff"}} icon={faFacebook} /></div>
                                             
                                         </a>
                                         <a href="https://github.com/Avimistry4800" title="Github" target="_blank">
-                                            <div className="text px-1"> <FontAwesomeIcon icon={faGithub} /></div>
+                                            <div className="text px-1"> <FontAwesomeIcon style={{color:"#00ddff"}} icon={faGithub} /></div>
                                             
                                         </a>
                                         <a href="https://www.linkedin.com/in/avi-mistry-52232a132/" title="Linkedin" target="_blank">
-                                            <div className="text px-1"> <FontAwesomeIcon icon={faLinkedin} /></div>
+                                            <div className="text px-1"> <FontAwesomeIcon style={{color:"#00ddff"}} icon={faLinkedin} /></div>
                                             
                                         </a>
                                         <a href="https://twitter.com/Avi_mistry48" title="Twitter" target="_blank">
-                                            <div className="text px-1"> <FontAwesomeIcon icon={faTwitter} /></div>
+                                            <div className="text px-1"> <FontAwesomeIcon style={{color:"#00ddff"}} icon={faTwitter} /></div>
                                             
                                         </a>
                                     </div>

@@ -9,7 +9,7 @@ const Header = () => {
         this.toRotate = toRotate;
         this.el = el;
         this.loopNum = 0;
-        this.period = parseInt(period, 10) || 2000;
+        this.period = parseInt(period, 100) || 2000;
         this.txt = "";
         this.tick();
         this.isDeleting = false;
@@ -64,13 +64,19 @@ const Header = () => {
         document.body.appendChild(css);
     };
     return (<section className="header">
-        
+        <div className="ripple-background col-md-6 lg-6 sm-6 ">
+                <div className="circle xxlarge shade1" />
+                <div className="circle xlarge shade2" />
+                <div className="circle large shade3" />
+                <div className="circle mediun shade4" />
+                <div className="circle small shade5" />
+            </div>
 
       <div className='row'>
       <div className='col-md-6 lg-6 sm-12 d-flex'>
       
       </div>
-      <div className='col-md-6 lg-6 sm-12 '>
+      <div className='col-md-4 lg-4 sm-10 z-index-100'>
       <h2 className="main-header ">
          
       <h1>Hi There </h1>
@@ -96,13 +102,7 @@ const Header = () => {
             
       </div>
       </div>
-            <div className="ripple-background">
-                <div className="circle xxlarge shade1" />
-                <div className="circle xlarge shade2" />
-                <div className="circle large shade3" />
-                <div className="circle mediun shade4" />
-                <div className="circle small shade5" />
-            </div>
+            
         
 </section>
       

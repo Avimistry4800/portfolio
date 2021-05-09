@@ -31,7 +31,7 @@ const Services = () => {
     },[]);
     return (
         <Fragment >
-            <Container className="text-center pt-5" style={{background:"#fff"}}>
+            <Container className="text-center pt-5" style={{background:""}}>
                 <h1 data-aos="zoom-out" className="titleText">My Services
                         <div className="top"> </div> <br />
                     <div className="bottom"> </div>
@@ -40,11 +40,13 @@ const Services = () => {
                     {
                         serviceData.map(data =>
                             <Col lg={4} md={6} sm={12}>
-                                <div data-aos="flip-up" className="serviceCard text-center pb-5 " style={{background:"#F5DF4E",borderRadius:"20px",minHeight:"500px"}}>
+                                <div data-aos="flip-up" className="serviceCard text-center pb-5 " style={{background:"#4d4d4d",borderRadius:"20px",minHeight:"500px",marginBottom:"40px"}}>
                                     <img data-aos="zoom-in-up" style={{height:"150px"}} src={data.icon} className="serviceIcon my-5" alt="" />
                                     <h2 data-aos="zoom-out-up" className="serviceName">{data.name}</h2>
                                     <p data-aos="fade-left" className="textDes px-2">{data.description}</p>
+                                    <div className="">
                                     <Link to="/MyService"> <Button data-aos="fade-up" variant="outline-success btn-sm">Read Details</Button></Link>
+                                    </div>
                                 </div>
                             </Col>
                         )

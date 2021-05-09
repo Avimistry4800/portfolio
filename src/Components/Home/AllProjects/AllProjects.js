@@ -49,7 +49,7 @@ const AllProjects = () => {
                         allProject.map(data =>
                             <Col lg={4} md={6} sm={12}>
                                 <div data-aos="flip-up" className="portfolioCard">
-                                    <img className="projectImage" src={data.image} alt=""/>
+                                    <img data-aos="flip-down" className="projectImage" src={data.image} alt=""/>
                                     <div className="p-3">
                                         <h3>{data.name}</h3>
                                         <p>{data.Details}</p>
