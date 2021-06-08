@@ -26,11 +26,11 @@ const ContactMe = () => {
         e.target.reset();
     };
     return (
-        <section style={{ background: "#4D4D4D" , color: "#FFFFFF"}} className="contact">
+        <section style={{ background: "#1a1919" , color: "#FFFFFF"}} className="contact">
             <div className="container">
                 <form onSubmit={sendEmail}>
                     <div className="row pt-5 mx-auto">
-                        <div className="col-6  mx-auto text-left">
+                        <div className="col-6 col-md-6 col-sm-12  mx-auto text-left">
                             <h2  style={{color:"#00ddff",paddingLeft:"10px"}}>Let's get in touch</h2>
                             <br />
                             <div className="col-12  mx-auto text-left">
@@ -77,7 +77,7 @@ const ContactMe = () => {
                         </h3>
                             </div>
                         </div>
-                        <div className="col-6  mx-auto">
+                        <div className="col-6 col-md-6 col-sm-12 pt-5 mx-auto contact">
                             <div className="col-12 form-group mx-auto">
                                 <input
                                     type="text"

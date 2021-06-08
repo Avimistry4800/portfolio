@@ -1,8 +1,8 @@
-import React from 'react';
-import NavbarTop from '../NavbarTop/NavbarTop';
-import image from '../../../Images/profile.jpg'
+import React from "react";
+import NavbarTop from "../NavbarTop/NavbarTop";
+import image from "../../../Images/profile.jpg";
 
-import './Header.css'
+import "./Header.css";
 
 const Header = () => {
     var TxtType = function (el, toRotate, period) {
@@ -63,49 +63,70 @@ const Header = () => {
         css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
         document.body.appendChild(css);
     };
-    return (<section className="header">
-        <div className="ripple-background col-md-6 lg-6 sm-6 ">
+    return (
+        <section className="header-animation">
+            <div className="ripple-background  col-md-4 lg-4 sm-4  ">
                 <div className="circle xxlarge shade1" />
                 <div className="circle xlarge shade2" />
                 <div className="circle large shade3" />
                 <div className="circle mediun shade4" />
                 <div className="circle small shade5" />
             </div>
+            
 
-      <div className='row'>
-      <div className='col-md-6 lg-6 sm-12 d-flex'>
-      
-      </div>
-      <div className='col-md-4 lg-4 sm-10 z-index-100'>
-      <h2 className="main-header ">
-         
-      <h1>Hi There </h1>
-      <br/>
-          <h1><big>I am AVI MISTRY</big></h1>
-                <a
-                    href
-                    className="typewrite"
-                    style={{color: 'white'}}
-                    data-period={2000}
-                    data-type='[ "DEVELOPER", "DESIGNER", " RELIABLE", "FRESHER" ]'
-                >
-                    <span className="wrap" />
-                </a>
-                    <div>
-                    <img style={{maxWidth:"30%",borderRadius:'30%',paddingTop:"40px"}} src={image} alt=""/>
-                    </div>
-                    <div>
-                    <a href="https://drive.google.com/uc?export=download&id=1sW0yRWLkW7iSJaf1RE8rcYGY7ix6zgYR">  <button data-aos="fade-up"  style={{background:'none',borderRadius:'20px',fontSize:'16px',color:'white',padding:"10px",marginTop:"50px"}}>Download Resume</button></a>
-                    </div>
-            </h2>
-            
-            
-      </div>
-      </div>
-            
-        
-</section>
-      
+            <div className="row mc">
+                <div className="col-md-6 lg-6 sm-12 d-flex">
+
+                </div>
+                <div className="col-md-4 lg-4 sm-10 pt-5 z-index-100">
+                    <h2 className="main-header ">
+                        <h1>Hi There </h1>
+                        <br />
+                        <h1>
+                            <big>I am AVI MISTRY</big>
+                        </h1>
+                        <a
+                            href
+                            className="typewrite"
+                            style={{ color: "white" }}
+                            data-period={2000}
+                            data-type='[ "DEVELOPER", "DESIGNER", " RELIABLE", "SELF-LEARNER " ]'
+                        >
+                            <span className="wrap" />
+                        </a>
+                        <div>
+                            <img
+                                style={{
+                                    maxWidth: "30%",
+                                    borderRadius: "30%",
+                                    paddingTop: "40px",
+                                }}
+                                src={image}
+                                alt=""
+                            />
+                        </div>
+                        <div>
+                            <a href="https://drive.google.com/uc?export=download&id=1sW0yRWLkW7iSJaf1RE8rcYGY7ix6zgYR">
+                                {" "}
+                                <button
+                                    data-aos="fade-up"
+                                    style={{
+                                        background: "none",
+                                        borderRadius: "20px",
+                                        fontSize: "16px",
+                                        color: "white",
+                                        padding: "10px",
+                                        marginTop: "50px",
+                                    }}
+                                >
+                                    Download Resume
+                                </button>
+                            </a>
+                        </div>
+                    </h2>
+                </div>
+            </div>
+        </section>
     );
 };
 

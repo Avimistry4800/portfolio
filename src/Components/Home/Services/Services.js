@@ -20,7 +20,7 @@ const serviceData=[
     },
     {
         icon: development,
-        name: 'Full Stack Development',
+        name: 'Full Stack',
         description: 'Everything from design to work is done beautifully, responsive Design & Web Application by FullStack Development.'
     }
 ]
@@ -40,7 +40,7 @@ const Services = () => {
                     {
                         serviceData.map(data =>
                             <Col lg={4} md={6} sm={12}>
-                                <div data-aos="flip-up" className="serviceCard text-center pb-5 " style={{background:"#4d4d4d",borderRadius:"20px",minHeight:"500px",marginBottom:"40px"}}>
+                                <div data-aos="flip-up" className="serviceCard text-center pb-5 " style={{background:"#1a1919",borderRadius:"20px",minHeight:"500px",marginBottom:"40px"}}>
                                     <img data-aos="zoom-in-up" style={{height:"150px"}} src={data.icon} className="serviceIcon my-5" alt="" />
                                     <h2 data-aos="zoom-out-up" className="serviceName">{data.name}</h2>
                                     <p data-aos="fade-left" className="textDes px-2">{data.description}</p>

@@ -33,7 +33,7 @@ const Resume = () => {
     },[]);
     const classes = useStyles();
     return (
-        <section  className="container text-center py-5">
+        <section  className="container  py-5">
             <h1 className="text-center py-5">A summary of My Resume</h1>
             <Timeline align="alternate">
       <TimelineItem>
@@ -121,8 +121,11 @@ Constantly Learning New Technology</Typography>
         </TimelineContent>
       </TimelineItem>
     </Timeline>
+    <div className="d-flex justify-content-center py-5">
     <a href="https://drive.google.com/uc?export=download&id=1WmAH_Zr1WURjTL6ZVq_h3FtPYILXwITI">  <Button data-aos="fade-up"  variant="outline-success btn-sm">Download Resume</Button></a>
    
+    </div>
+    
         </section>
     );
 };

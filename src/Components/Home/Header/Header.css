@@ -1,4 +1,4 @@
-.header{
+.header-animation{
     /* background: #5833ff; */
     background: linear-gradient(-45deg, #773825, #5c1631, #1a576d, #0c5c49);
     background-size: 400% 500%;
@@ -98,11 +98,37 @@
     text-align: center;
     color:#fff;
     padding-top:3em;
+    
   }
   
   .main-header { 
     font-size: 900 ;
     font-weight: bold;
+    padding: 0;
+    margin: 0;
+    margin-right: 0;
+    }
+    .mc{
+      width:80%;
+    }
+    @media (max-width: 600px) {
+      .ripple-background{
+        display:none;
+      } 
+      .mc{
+        padding-top:20%;
+        padding-left: 25%;
+      }
+    
+    }
+
+    @media (max-width: 770px) {
+      .ripple-background{
+        display:none;
+      } 
+      .mc{
+        padding-top:5%;
+      }
     
     }
     

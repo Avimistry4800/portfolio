@@ -19,10 +19,10 @@ const AboutMe = () => {
             <div className="row d-flex align-items-center">
                 <div className="col-md-8 lg-8 sm-12">
                     <h3 data-aos="fade-left" style={{ paddingBottom:'20px'}}>Hi, I'm <span className='name'>Avi Mistry</span></h3>
-                    <p data-aos="fade-right" >I'm a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Delivering work within time and budget which meets client’s requirements is my motto . <br/>I am a very fast learner. I Always thrive on knowledge about next-generation technologies. And keep up the technology race.<br/>During my journey through the evolution of the technology, I picked my "Must Have" Technologies to work with that includes:<span style={{fontWeight:"600"}}> HTML5, CSS3, Bootstrap, javaScript, Es6, React Js, Node.js, Express Js, mySQL, mongodb & many more.</span> By Profession a Full Stack Web Developer.</p>
+                    <p data-aos="fade-right" >I'm a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Delivering work within time and budget which meets client’s requirements is my motto . <br/>I am a very fast learner. I Always thrive on knowledge about next-generation technologies. And keep up the technology race.<br/>During my journey through the evolution of the technology, I picked my "Must Have" Technologies to work with that includes:<span style={{fontWeight:"600"}}> HTML5, CSS3, Bootstrap, javaScript, Es6, React Js, Node.js, Express Js, mongodb & many more.</span> By Profession a Full Stack Web Developer.</p>
                  
                 </div>
-                <div data-aos="fade-left" className="col-md-4 lg-4 sm-12 text-center">
+                <div data-aos="fade-left" className=" image col-md-4 lg-4 sm-12 text-center">
                     <img src={image}alt=""/>
                 </div>
                 <div className="d-flex row">

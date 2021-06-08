@@ -18,7 +18,7 @@ const Projects = () => {
         Aos.init({duration:2000});
     },[]);
     return (
-        <section  className="project py-5 " style={{background:"#4d4d4d", borderRadius:"10px"}}>
+        <section  className="project py-5 " style={{background:"#1a1919", borderRadius:"10px"}}>
             <div data-aos="fade-down" className="text-center project-header">
                 <h1 className="pb-5">My Recent Projects</h1>
                 
@@ -48,7 +48,7 @@ const Projects = () => {
                         </h3>
                         <div style={{fontSize:"2rem", color:'#212529',textDecoration:"none"}} className="d-flex justify-content-center ">
                             <br/>
-                            <h4>visit now</h4>
+                            <h4 style={{color:"white"}}>visit now</h4>
                                         <a href="https://github.com/Avimistry4800/cleanzo" title="Github Repository" target="_blank">
                                             <div className="text px-4"> <FontAwesomeIcon icon={faGithub} /></div>
                                             
@@ -80,7 +80,7 @@ const Projects = () => {
                             <FontAwesomeIcon icon={faGithub} /> <span> </span>
                         </h3>
                         <div style={{fontSize:"2rem", color:'#212529'}} className="d-flex justify-content-center">
-                        <h4>visit now</h4>
+                        <h4 style={{color:"white"}}>visit now</h4>
                                         <a href="https://github.com/Avimistry4800/food-vally" title="Github Repository" target="_blank">
                                             <div className="text px-4"> <FontAwesomeIcon icon={faGithub} /></div>
                                             
@@ -125,7 +125,7 @@ const Projects = () => {
                             
                         </h3>
                         <div  style={{fontSize:"2rem", color:'#212529'}} className="d-flex justify-content-center">
-                        <h4>visit now</h4>
+                        <h4 style={{color:"white"}}>visit now</h4>
                                         <a href="https://github.com/Avimistry4800/kaku--riders" title="Github Repository" target="_blank">
                                             <div className="text px-4"> <FontAwesomeIcon icon={faGithub} /></div>
                                             
@@ -137,12 +137,12 @@ const Projects = () => {
                                     </div>
                     </div>
                 </div>
-                <div className='d-flex justify-content-center py-5'>
+                
+            </div>
+            <div className='d-flex justify-content-center py-5' >
                 <Link  to="/projects"> <Button data-aos="flip-left" variant="outline-success btn-lg">View All</Button></Link>
 
                 </div>
-            </div>
-            
         </section>
     );
 };
